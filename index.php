@@ -15,7 +15,10 @@
 <body>
     <h1>I quark (Testo incensurato)</h1>
     <p><?=$testo?></p>
+    <div>Lunghezza paragrafo: <?=strlen($testo)?></div>
+
     <h2>Testo censurato</h2>
     <p><?=$testoCensured?></p>
+    <div>Lunghezza paragrafo: <?=strlen($testoCensured)?></div>
 </body>
 </html>
